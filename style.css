@@ -1,0 +1,38 @@
+:root  {
+    --cor-vermelho: oklch(0.704 0.191 22.216);
+    --cor-laranja: oklch(0.828 0.189 84.429);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    background-color: var(--cor-vermelho);
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    color: #FFF;
+}
+
+main {
+    padding: 0 4rem;
+}
+
+h2 {
+    margin: 2rem 0;
+}
+
+span {
+    font-weight: bold;
+}
